@@ -24,3 +24,5 @@ e.g. Cat.acceptableCoats
 when creating two objects, compare: 
 1. with ==, compare the memory references
 2. with .equal(), compare the value of the objects
+
+test the git bash
