@@ -1,0 +1,26 @@
+10/22/2018 Object-oriented code (Basic OOP)
+
+setters are important in constraining parameter in constructors
+	should be used in every constructors
+getters(public function to get the variables of a class) are necessary when the private properties are installed
+	e.g. public int getAge(){
+		return this.age;
+		}
+
+eclipse>>source>>generate getters and setters
+
+when setting properties in a class, set the properties(as variables), set them to private so other class would not mess with the original value.
+
+if variables floating around(not in methods) in class, should always consider setting them as private first, except when there is a very good reason of not doing so
+
+when calling a function with multiple constructors, make sure that the logic function that constriain the parameter input is applied to every contrustor that exists
+e.g. this.setName(name);
+
+static should be add to variables in class when they are shared for all instances of class 
+
+when calling static variable, should use the respective class prefix
+e.g. Cat.acceptableCoats
+
+when creating two objects, compare: 
+1. with ==, compare the memory references
+2. with .equal(), compare the value of the objects

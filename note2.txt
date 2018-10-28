@@ -1,0 +1,19 @@
+10/01/2018
+Assignment3
+	Density: tics/non-tics
+	Occurence and % of all tics in separate methods
+
+	
+Overloading: having several methods given the same name with different parameter list
+public static int firstMethod(){}
+public static int firstMethod(int x){}
+
+
+public: can be accessed from anywhere
+private: cannot access methods from other classes
+protected: cannot access methods from other packages
+
+*Using private methods protecting yourself or others from accidentally calling it
+*I can call private/protected methods using public methods
+
+System.out.printf("%.2f",variable);

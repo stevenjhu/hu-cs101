@@ -1,0 +1,24 @@
+Javadoc (necessary for every assignment before the "public class")
+
+/**
+*A program that (does something) // define class
+* @author Steven Hu
+* @version 1.0
+*/
+
+
+Number System
+
+Decimal Number System (Base 10 System)
+82999
+8*10^4 +2*10^3+9*10^2+9*10^1+9*10^0
+
+Binary Number System (Base 2 System)
+10111
+1*2^4+0*2^3+1*2^2+1*2^1+1*2^0
+
+Hexadecimal Number System (Base 16 System)
+glyphs: 0 1 2 3 4 5 6 7 8 9 a b c d e f
+
+1111
+1*16^3+1*16^2+1*16^1+1*16^0

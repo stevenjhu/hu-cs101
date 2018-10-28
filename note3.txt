@@ -1,0 +1,70 @@
+10/03/2018  Fun Fact: professor's birthday
+
+byte
+short
+int
+long
+float
+double
+
+int[] x;
+x = new int[5];
+allocation of memory: reserve memory 
+
+.split(" ");
+take in to account of punctuation
+String[] words = foo.split("[,.?\\s+]"); // regular expression to remove any , . ? and " "
+Syntax: String[] a = b.split("[...]");
+
++ means one or more the previous space
+\\s means space for the regular expression
+
+for(int i = 0; i<words.length; i++){
+	String word = words[i];
+	System.out.println(words[i]);
+	
+}
+//shorthand for the above, but without counter
+for (String word: words){
+	System.out.println(word);
+}
+
+import java.lang.Integer
+for(String el : x){
+	Integer.parseInt(el);	//interpret string and turn into int
+	System.out.println(el);
+}
+
+To append to string object
+
+String[]word = {"a","b","c"};
+String contents ="";
+for (int i = 0; i < word.length;i++){
+	contents += words[i]+ " ";
+}
+
+after "if", in a while loop
+you want to quit the loop
+assign the flag to false, and put the code following the if in an else statement
+
+When the length of array is not determined, 
+String[] a = new String[0];
+later on in the file
+String[] b = new String [word.length + 1];
+b = a;
+
+write //statement type to get the statement range clearer
+while(){
+
+}//while
+
+String haystack;
+String needle;
+
+int pos = haystack.indexOf(needle, 0);
+//if no such word found, 
+
+while(pos >= 0){
+	counter++;
+	pos = haystack.toLowerCase().indexOf(needle, pos+1);
+}//while

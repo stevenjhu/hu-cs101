@@ -1,0 +1,20 @@
+
+1. Write a text file and change the extension name
+2. Compile the high-level java code into byte code
+javac Foo.java --> Foo.class
+3. If write a package, make sure to make direcitory
+mkdir edu\nyu\cs\sh5005
+rename 
+3. Run the code java -classpath . package.Foo
+
+
+switch (x){
+	case "raining":
+	case "rain":
+	case "shower":
+		System.out.println("I hope you took an umbrella!");
+}
+
+
+Tips:
+1. Javadoc is not required in the exam
