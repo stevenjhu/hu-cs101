@@ -1,0 +1,21 @@
+When having ClassNotFoundException, check the package when calling main
+
+No args constructors can be inherited using 'extends' keyword, other constructors cannot
+
+Inherited class can build constructors using the functions of the parent class
+e.g. 
+public class NYUStudent{
+	public NYUStudent(String name, int age, char sex){
+	private String nNumber; //e.g. N12345678
+	private int netId; //e.g. sj2903
+	private String major; //e.g. Computer Science
+	private String year; //e.g. Freshman
+
+		super(name,age,sex); //using the three-parameter constructor in the parent class
+	}
+	public NYUStudent(){
+
+		super(); //using the no-arg constructor in the parent class
+
+	}
+}
